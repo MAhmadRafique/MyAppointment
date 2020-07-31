@@ -1,5 +1,4 @@
 import React from "react";
-
 import { StyleSheet, Text, View } from "react-native";
 
 const ProfileDetail = (props) => {
@@ -22,13 +21,13 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   Leftdetail: {
-    fontSize: 22,
+    fontSize: 15,
     alignContent: "center",
     justifyContent: "center",
     paddingHorizontal: 0,
   },
   Rightdetail: {
-    fontSize: 19,
+    fontSize: 12,
     alignContent: "center",
     justifyContent: "center",
     paddingHorizontal: 0,

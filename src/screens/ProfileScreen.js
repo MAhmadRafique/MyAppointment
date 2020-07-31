@@ -1,12 +1,12 @@
 import React from "react";
-import { Text, StyleSheet, Button, View } from "react-native";
+import { StyleSheet, View, ScrollView } from "react-native";
 import HeaderScreen from "../../components/HeaderScreen";
 import ImageComponent from "../../components/ImageComponent";
 import ProfileDetail from "../../components/ProfileDetail";
 
 const ProfileScreen = ({ navigation }) => {
   return (
-    <View>
+    <ScrollView>
       <HeaderScreen title="Profile" />
       <ImageComponent title="Joey Tribbiani" />
 
@@ -18,7 +18,7 @@ const ProfileScreen = ({ navigation }) => {
         <ProfileDetail name="Country" detail="United Kingdom" />
         <ProfileDetail name="Postal Code" detail="DK34N" />
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

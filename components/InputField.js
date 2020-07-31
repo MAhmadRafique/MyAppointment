@@ -4,7 +4,11 @@ import { StyleSheet, TextInput, View } from "react-native";
 const InputField = (props) => {
   return (
     <View style={styles.input}>
-      <TextInput placeholder={props.pholder} style={{fontSize: 20}} keyboardType={props.kbType}/>
+      <TextInput
+        placeholder={props.pholder}
+        style={{ fontSize: 15 }}
+        keyboardType={props.kbType}
+      />
     </View>
   );
 };
@@ -15,8 +19,8 @@ const styles = StyleSheet.create({
     padding: 10,
     borderColor: "grey",
     borderWidth: 0.5,
-    margin: 10
-  }
+    margin: 10,
+  },
 });
 
 export default InputField;

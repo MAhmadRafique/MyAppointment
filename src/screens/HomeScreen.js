@@ -1,6 +1,6 @@
 import React from "react";
-import { Text, StyleSheet, View, Button, Image } from "react-native";
-import { createBottomTabNavigator, createAppContainer } from "react-navigation";
+import { View, Image } from "react-native";
+import { createAppContainer } from "react-navigation";
 import { createMaterialBottomTabNavigator } from "react-navigation-material-bottom-tabs";
 import { Icon } from 'react-native-elements'
 

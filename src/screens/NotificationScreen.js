@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, StyleSheet, View, Button, FlatList } from "react-native";
+import { StyleSheet, View, FlatList } from "react-native";
 import HeaderScreen from "../../components/HeaderScreen";
 import NotificationItem from "../../components/NotificationItem";
 
